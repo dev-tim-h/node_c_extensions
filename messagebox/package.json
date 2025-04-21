@@ -1,0 +1,13 @@
+{
+    "name": "node-native-GetCursorPosition",
+    "version": "1.0.0",
+    "dependencies": {
+      "nan": "^2.6.1",
+      "node-gyp": "^3.6.0"
+    },
+    "scripts": {
+      "compile": "node-gyp rebuild",
+      "start": "node main.js"
+    },
+    "gypfile": true
+  }
